@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".medecin_controller">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical"
+        android:layout_marginVertical="100dp">
+
+        <EditText
+            android:id="@+id/nom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:ems="30"
+            android:hint="@string/nom_du_m_decin"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/prenom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:ems="30"
+            android:hint="@string/pr_nom_du_m_decin"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/spec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:ems="30"
+            android:hint="@string/sp_cialit"
+            android:textSize="25sp" />
+        <EditText
+            android:id="@+id/Ville"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:ems="30"
+            android:hint="@string/ville"
+            android:textSize="25sp" />
+        <EditText
+            android:id="@+id/Description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:ems="30"
+            android:hint="@string/description"
+            android:textSize="25sp" />
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/save"
+            android:layout_margin="20dp"/>
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/supprimer"
+            android:layout_margin="20dp"/>
+
+        <Button
+            android:id="@+id/btnAll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="basculer vers la liste"
+            android:layout_margin="10dp"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

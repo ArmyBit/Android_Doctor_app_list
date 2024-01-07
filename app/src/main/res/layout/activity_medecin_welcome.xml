@@ -1,0 +1,37 @@
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="40sp"
+        android:layout_marginTop="200dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/img">
+
+        </ImageView>
+        <Button
+            android:layout_width="wrap_content"
+            android:id="@+id/btn"
+            android:layout_marginTop="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/naviguer_vers_la_liste_des_m_decins">
+        </Button>
+        <Button
+            android:layout_width="wrap_content"
+            android:id="@+id/btn2"
+            android:layout_marginTop="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ajouter_un_m_decin">
+        </Button>
+    </LinearLayout>
+</RelativeLayout>
+    

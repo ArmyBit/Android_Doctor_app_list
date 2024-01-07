@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MyFirstApp</string>
+    <string name="nom_du_medecin">Nom du Médecin : </string>
+    <string name="prenom_du_medecin">Prénom du Médecin :  </string>
+    <string name="spec_du_medecin">Spécialité :  </string>
+    <string name="Ville_du_medecin">Ville : </string>
+    <string name="Description">Description : </string>
+    <string name="liste_des_m_decins">Liste des Médecins</string>
+    <string name="naviguer_vers_la_liste_des_m_decins">Naviguer Vers la Liste des Médecins</string>
+    <string name="ajouter_un_m_decin">Ajouter un médecin</string>
+    <string name="ville">Ville</string>
+    <string name="sp_cialit">Spécialité</string>
+    <string name="pr_nom_du_m_decin">Prénom du Médecin</string>
+    <string name="nom_du_m_decin">Nom du Médecin</string>
+    <string name="description">Description</string>
+    <string name="save">Sauvegarder</string>
+    <string name="supprimer">Supprimer</string>
+    <string name="code_du_m_decin">Code du Médecin</string>
+
+
+</resources>

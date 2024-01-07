@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="lbl_nom_medecin" type="id" />
+    <item name="valNomMed" type="id" />
+    <item name="lbl_pre_medecin" type="id" />
+    <item name="valpreMed" type="id" />
+    <item name="lbl_spc_medecin" type="id" />
+    <item name="valspecMed" type="id" />
+    <item name="lbl_ville_medecin" type="id" />
+    <item name="valvilleMed" type="id" />
+    <item name="lbl_desc_medecin" type="id" />
+    <item name="valdescMed" type="id" />
+    <item name="lbl_code_med" type="id"/>
+    <item name="valcode_med" type="id"/>
+
+
+</resources>
